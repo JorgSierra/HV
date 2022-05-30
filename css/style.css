@@ -1,0 +1,28 @@
+.navbar{
+    height: 170px;
+    background-color: #E6E6E6;
+    text-align: center;
+}
+.espacio{
+    min-height: 100px;
+}
+.tituloSeccion{
+    text-transform: uppercase;
+    background-color: #C4C4C4;
+    color: #005677;
+}
+.negrita{
+    font-weight: bold;
+}
+footer{
+    height: 35px;
+    text-align: center;
+    background-color: #005677;
+    color: white;
+}
+.nobull{
+    list-style-type: none;
+}
+.logo{
+    height: 170px;
+}
