@@ -6,7 +6,10 @@
 .espacio{
     min-height: 100px;
 }
-.tituloSeccion{
+h1{
+    margin: 0px;
+}
+h1, .tituloSeccion{
     text-transform: uppercase;
     background-color: #C4C4C4;
     color: #005677;
