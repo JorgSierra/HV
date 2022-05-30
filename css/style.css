@@ -14,15 +14,19 @@
 .negrita{
     font-weight: bold;
 }
-footer{
-    height: 35px;
-    text-align: center;
-    background-color: #005677;
-    color: white;
-}
 .nobull{
     list-style-type: none;
 }
+.logo img{
+    width: 200px;
+    vertical-align: middle;
+}
 .logo{
-    height: 170px;
+    line-height: 170px;
+}
+footer{
+    height: 40px;
+    text-align: center;
+    background-color: #005677;
+    color: white;
 }
