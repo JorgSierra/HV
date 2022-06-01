@@ -1,6 +1,6 @@
 .navbar{
     height: 170px;
-    background-color: #E6E6E6;
+    background-color: #272424b4;
     text-align: center;
 }
 .espacio{
@@ -21,7 +21,7 @@ h1, .tituloSeccion{
     list-style-type: none;
 }
 .logo img{
-    width: 200px;
+    width: 150px;
     vertical-align: middle;
 }
 .logo{
