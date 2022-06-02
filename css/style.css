@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-html{
+*{
     font-family: 'Lato', sans-serif;
 }
 body{
     margin: 0;
     padding: 0;
 }
+.center{
+    text-align: center;
+}
 footer{
     text-align: center;
     background-color: #005677;
     color: white;
 }
+.foto{
+    margin: 0;
+}
 .foto img{
     width: 150px;
-    vertical-align: middle;
-}
-.foto{
-    line-height: 170px;
+    margin: 10px;
+    margin-bottom: 0;
 }
 .footerLinea{
     margin: 0;
@@ -27,11 +31,14 @@ footer{
     line-height: 50px;
     padding: 0 5px;
 }
+.linkSobreMi{
+    font-size: 20px;
+    margin: 10px 0;
+}
 .navbar{
     background-image: url(../img/fondoHeader.jpg);
     background-size: contain;
     background-color: #272424b4;
-    text-align: center;
 }
 .negrita{
     font-weight: bold;
