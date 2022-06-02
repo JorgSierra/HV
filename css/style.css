@@ -1,18 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    text-align: center;
+    background-color: #005677;
+    color: white;
+}
+.foto img{
+    width: 150px;
+    vertical-align: middle;
+}
+.foto{
+    line-height: 170px;
+}
+.footerLinea{
+    margin: 0;
+}
+.footerItem{
+    font-size: 25px;
+    line-height: 50px;
+    padding: 0 5px;
+}
 .navbar{
-    height: 170px;
+    background-image: url(../img/fondoHeader.jpg);
+    background-size: contain;
     background-color: #272424b4;
     text-align: center;
-}
-.espacio{
-    min-height: 100px;
-}
-h1{
-    margin: 0px;
-}
-h1, .tituloSeccion{
-    text-transform: uppercase;
-    background-color: #C4C4C4;
-    color: #005677;
 }
 .negrita{
     font-weight: bold;
@@ -20,16 +39,12 @@ h1, .tituloSeccion{
 .nobull{
     list-style-type: none;
 }
-.logo img{
-    width: 150px;
-    vertical-align: middle;
+.titulo, .tituloSeccion{
+    text-transform: uppercase;
+    background-color: #C4C4C4;
+    color: #005677;
+    margin: 10px 0;
 }
-.logo{
-    line-height: 170px;
-}
-footer{
-    height: 40px;
-    text-align: center;
-    background-color: #005677;
-    color: white;
-}
+
+
+
